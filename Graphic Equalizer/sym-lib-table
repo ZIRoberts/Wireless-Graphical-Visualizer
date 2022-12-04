@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Graphic_Equalzier_Schematic-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Graphic_Equalzier_Schematic-eagle-import.lib)(options "")(descr ""))
+)

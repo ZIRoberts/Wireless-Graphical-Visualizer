@@ -1,0 +1,545 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ce83728b-bebd-48c2-8734-b6a50d837931)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061059fc9)
+    (property "Sheet name" "Graphic_Equalzier_Schematic_1" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Graphic_Equalzier_Schematic_1.kicad_sch" (id 1) (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006105a17d)
+    (property "Sheet name" "Graphic_Equalzier_Schematic_2" (id 0) (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Graphic_Equalzier_Schematic_2.kicad_sch" (id 1) (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006105a7d2)
+    (property "Sheet name" "Graphic_Equalzier_Schematic_3" (id 0) (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Graphic_Equalzier_Schematic_3.kicad_sch" (id 1) (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000061059fc9" (page "2"))
+    (path "/00000000-0000-0000-0000-00006105a17d" (page "3"))
+    (path "/00000000-0000-0000-0000-00006105a7d2" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000f54a36b8"
+      (reference "#SUPPLY01") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000019032892"
+      (reference "#SUPPLY02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00004f8e092b"
+      (reference "#SUPPLY03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00001c9152c2"
+      (reference "#SUPPLY04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000020b1ddde"
+      (reference "#SUPPLY05") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000a7cd5eb6"
+      (reference "#SUPPLY06") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00002907e397"
+      (reference "#SUPPLY07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000039566f8a"
+      (reference "#SUPPLY08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000b8640d54"
+      (reference "#SUPPLY09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000028999800"
+      (reference "#SUPPLY010") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000e0b04c0e"
+      (reference "#SUPPLY011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000031c2c8a5"
+      (reference "#SUPPLY012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00008d803956"
+      (reference "#SUPPLY013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000c4643c99"
+      (reference "#SUPPLY014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00002739b52f"
+      (reference "#SUPPLY015") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000086f85ee9"
+      (reference "#SUPPLY016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000026b7fe90"
+      (reference "#SUPPLY017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c00d883a"
+      (reference "#SUPPLY018") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00009765d681"
+      (reference "#SUPPLY019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000074256ee2"
+      (reference "#SUPPLY020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00005f7bb948"
+      (reference "#SUPPLY021") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000015c4ecc7"
+      (reference "#SUPPLY022") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000f460be83"
+      (reference "#SUPPLY023") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000029bdd468"
+      (reference "#SUPPLY024") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000517fcee6"
+      (reference "#SUPPLY025") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000cb2ee093"
+      (reference "#SUPPLY026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000019aa1eb1"
+      (reference "#SUPPLY027") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000390f8b27"
+      (reference "#SUPPLY028") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000d637372c"
+      (reference "#SUPPLY029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000065db38d"
+      (reference "#SUPPLY030") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000668ee308"
+      (reference "#SUPPLY031") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000ed223f71"
+      (reference "#SUPPLY032") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c39e5e7f"
+      (reference "#SUPPLY033") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e0252ff9"
+      (reference "#SUPPLY034") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c61ee066"
+      (reference "#SUPPLY035") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e3e40b96"
+      (reference "#SUPPLY036") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000be152a2a"
+      (reference "#SUPPLY037") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000005643bc3"
+      (reference "#SUPPLY038") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00009cd1bb76"
+      (reference "#SUPPLY039") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00009a077208"
+      (reference "#SUPPLY040") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00004a937d01"
+      (reference "#SUPPLY042") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000714e506a"
+      (reference "#SUPPLY044") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00006114ff86"
+      (reference "#SUPPLY0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00006120cc91"
+      (reference "2.5V1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000024f56349"
+      (reference "C1") (unit 1) (value "C-USC0805") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00004071d1f9"
+      (reference "C2") (unit 1) (value "C-USC0805") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000000cb58e1"
+      (reference "C3") (unit 1) (value "C-USC0805") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00008b5ad75a"
+      (reference "C4") (unit 1) (value "C-USC0805") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a35c59bc"
+      (reference "C5") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00000cfd014e"
+      (reference "C6") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000049f108fa"
+      (reference "C7") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00002f4b506d"
+      (reference "C8") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00007d4536d2"
+      (reference "C9") (unit 1) (value "C-USC0805") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e6471815"
+      (reference "C10") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000dc2bcd37"
+      (reference "C11") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c9f266b1"
+      (reference "C12") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e10cb6a7"
+      (reference "C13") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00009d093897"
+      (reference "C14") (unit 1) (value ".02u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00004ef73ec9"
+      (reference "C15") (unit 1) (value ".02u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000d5459529"
+      (reference "C16") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000ce46cd9a"
+      (reference "C17") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000015f8a7ba"
+      (reference "C18") (unit 1) (value ".02u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000bea4d22f"
+      (reference "C19") (unit 1) (value ".02u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000fc099bd3"
+      (reference "C20") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a03cf4b5"
+      (reference "C21") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00008d048e76"
+      (reference "C22") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000bef2916d"
+      (reference "C23") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00005a0a058d"
+      (reference "C24") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00007205dfeb"
+      (reference "C25") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000023f321d9"
+      (reference "C26") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e408d1c4"
+      (reference "C27") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000086cf5ce3"
+      (reference "C28") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000091f76140"
+      (reference "C29") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00003d2ccf2a"
+      (reference "C30") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00002af47781"
+      (reference "C31") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000dbe20bf3"
+      (reference "C32") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e6289810"
+      (reference "C33") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000073ea128d"
+      (reference "C34") (unit 1) (value "1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00001cd19cfb"
+      (reference "C35") (unit 1) (value "1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000074261c1f"
+      (reference "C36") (unit 1) (value "22u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00000c26a818"
+      (reference "C37") (unit 1) (value ".01u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000612b6a85"
+      (reference "C38") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000612c0872"
+      (reference "C39") (unit 1) (value ".1u") (footprint "Graphic_Equalzier_Schematic:C0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c78c3fbd"
+      (reference "D1") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00000cade672"
+      (reference "D2") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000093886c31"
+      (reference "D3") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000004403a79"
+      (reference "D4") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a8f36fed"
+      (reference "D5") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00008d7f21e8"
+      (reference "D6") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000011f28fee"
+      (reference "D7") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000054b076e9"
+      (reference "D8") (unit 1) (value "BAT54W-HG3-18") (footprint "Graphic_Equalzier_Schematic:SOD3716X135N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000c1877c4d"
+      (reference "D9") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00008b1af466"
+      (reference "D10") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000ab7a9e27"
+      (reference "D11") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000b603868b"
+      (reference "D12") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000e5dd51dd"
+      (reference "D13") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00002984713a"
+      (reference "D14") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000093b9cd1"
+      (reference "D15") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00004ab03efc"
+      (reference "D16") (unit 1) (value "MMBD101LT1G") (footprint "Graphic_Equalzier_Schematic:SOT96P237X111-3N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00006120bb3c"
+      (reference "GND1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00006120d711"
+      (reference "GND2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-000022f7723e"
+      (reference "IC1") (unit 1) (value "TLV2371IP") (footprint "Graphic_Equalzier_Schematic:DIP794W53P254L959H508Q8N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000bc34dc86"
+      (reference "IC2") (unit 1) (value "MCP1700T-2502E_TT") (footprint "Graphic_Equalzier_Schematic:SOT95P237X112-3N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000b686635d"
+      (reference "IC3") (unit 1) (value "MCP1700T-2502E_TT") (footprint "Graphic_Equalzier_Schematic:SOT95P237X112-3N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000fa55f29d"
+      (reference "IC4") (unit 1) (value "TLV2372IP") (footprint "Graphic_Equalzier_Schematic:DIP794W53P254L959H508Q8N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000eca671c6"
+      (reference "IC5") (unit 1) (value "TLV2372IP") (footprint "Graphic_Equalzier_Schematic:DIP794W53P254L959H508Q8N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00000ee5647e"
+      (reference "IC6") (unit 1) (value "TLV2372IP") (footprint "Graphic_Equalzier_Schematic:DIP794W53P254L959H508Q8N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00003268441d"
+      (reference "IC7") (unit 1) (value "TLV2372IP") (footprint "Graphic_Equalzier_Schematic:DIP794W53P254L959H508Q8N")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000f533e679"
+      (reference "IC8") (unit 1) (value "MAX4617CPE+") (footprint "Graphic_Equalzier_Schematic:DIP794W56P254L1918H457Q16N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000449c7c68"
+      (reference "J1") (unit 1) (value "SJ1-3523N") (footprint "Graphic_Equalzier_Schematic:SJ13523N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000c3e76336"
+      (reference "J2") (unit 1) (value "SJ1-3523N") (footprint "Graphic_Equalzier_Schematic:SJ13523N")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000b665fda9"
+      (reference "J3") (unit 1) (value "10033526-N3212LF") (footprint "Graphic_Equalzier_Schematic:10033526N3212LF")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000054673866"
+      (reference "R1") (unit 1) (value "4750") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000855fdfdb"
+      (reference "R2") (unit 1) (value "23700") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a00bd228"
+      (reference "R3") (unit 1) (value "267") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000ba9f59f4"
+      (reference "R4") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000cae48b39"
+      (reference "R5") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00001be7e303"
+      (reference "R6") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000e67a151d"
+      (reference "R7") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00003b37d644"
+      (reference "R8") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000295f0d93"
+      (reference "R9") (unit 1) (value "10000") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000cb121278"
+      (reference "R10") (unit 1) (value "47500") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00003d3c6285"
+      (reference "R11") (unit 1) (value "348") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000f26279ce"
+      (reference "R12") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00005d2526fc"
+      (reference "R13") (unit 1) (value "7500") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000052b5c5d8"
+      (reference "R14") (unit 1) (value "34800") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000e6a0be1a"
+      (reference "R15") (unit 1) (value "301") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00009dd04142"
+      (reference "R16") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a79f8441"
+      (reference "R17") (unit 1) (value "10000") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000368e8eaa"
+      (reference "R18") (unit 1) (value "54900") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00007fe27201"
+      (reference "R19") (unit 1) (value "806") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000061da09e4"
+      (reference "R20") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000067f0f3d"
+      (reference "R21") (unit 1) (value "4990") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000acf76585"
+      (reference "R22") (unit 1) (value "23700") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000529ae39c"
+      (reference "R23") (unit 1) (value "267") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00007aa300d2"
+      (reference "R24") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c18e2b58"
+      (reference "R25") (unit 1) (value "7500") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000053166c08"
+      (reference "R26") (unit 1) (value "40200") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00005f2c84b3"
+      (reference "R27") (unit 1) (value "402") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a39a2b98"
+      (reference "R28") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000c91f6436"
+      (reference "R29") (unit 1) (value "7500") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a4326512"
+      (reference "R30") (unit 1) (value "35700") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00009fbd1dde"
+      (reference "R31") (unit 1) (value "267") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000a06ab8e7"
+      (reference "R32") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000589b4207"
+      (reference "R33") (unit 1) (value "1210") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000b2c6fd0f"
+      (reference "R34") (unit 1) (value "6040") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000576a4706"
+      (reference "R35") (unit 1) (value "402") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00005910e679"
+      (reference "R36") (unit 1) (value "100k") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000610c7927"
+      (reference "R37") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00006115dcc9"
+      (reference "R38") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000610e339f"
+      (reference "R39") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000611793ee"
+      (reference "R40") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-000061194f5c"
+      (reference "R41") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000611134d6"
+      (reference "R42") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-0000611a72cd"
+      (reference "R43") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a17d/00000000-0000-0000-0000-00006112ee1c"
+      (reference "R44") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000610ac41f"
+      (reference "R45") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-0000610cc15e"
+      (reference "R46") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00006114c93a"
+      (reference "R47") (unit 1) (value "R-US_R0805") (footprint "Graphic_Equalzier_Schematic:R0805")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-00006111b27b"
+      (reference "SIG1") (unit 1) (value "SIG") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006105a7d2/00000000-0000-0000-0000-000089e33a62"
+      (reference "U$1") (unit 1) (value "ESP32DEVKITV1") (footprint "Graphic_Equalzier_Schematic:ESP32-DEVKITV1")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-00006120c64f"
+      (reference "VGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061059fc9/00000000-0000-0000-0000-0000611c0b2c"
+      (reference "Vcc1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+  )
+)
